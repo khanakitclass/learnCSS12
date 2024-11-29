@@ -1,0 +1,63 @@
+.colName {
+    color: green;
+}
+
+/* 0-9 a-f */
+.colHash {
+    color: #000000;
+    color: #ffffff;
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+    color: #f851dc;
+}
+
+/* 0-255 */
+.colRGBA {
+    /* color: rgba(red, green, blue, alpha); */
+    color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 0, 0, 1);
+    color: rgba(0, 255, 0, 1);
+    color: rgba(0, 0, 255, 1);
+    color: rgba(231, 143, 10, 0.8);
+}
+
+/* hue-0-360   saturation: 0-100%      lightness: 0-100%   alpha: 0-1 */
+.colHSLA {
+    /* color: hsla(hue, saturation, lightness, alpha); */
+    color: hsla(162, 56%, 53%, 0.806);
+}
+
+.alCenter {
+    text-align: center;
+}
+
+.alRight {
+    text-align: right;
+}
+
+.alJst {
+    text-align: justify;
+    line-height: 50px;
+}
+
+.upper {
+    text-transform: capitalize;
+}
+
+.deco {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.space {
+    text-indent: 50px;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    line-height: 50px;
+    white-space: nowrap;
+}

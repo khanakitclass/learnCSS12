@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3E1E2;
+}
+
+.login {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 30px;
+    overflow: hidden;
+    /* box-shadow: h-dir v-dir blur spread color; */
+    box-shadow: -10px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.login-banner {
+    position: absolute;
+    top: -14%;
+    left: 50%;
+    width: 700px;
+    height: 700px;
+    background-image: url(../images/login_banner.webp);
+    background-position: right center;
+    background-size: cover;
+    border-radius: 50%;
+}

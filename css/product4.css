@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F5C798;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.product {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.product img {
+    position: absolute;
+    top: -66px;
+    width: 150px;
+    left: 17%;
+}
+
+.product-data {
+    padding: 20px;
+    text-align: center;
+    margin-top: 73px;
+}

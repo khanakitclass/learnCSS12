@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+#serifDemo {
+    font-family: serif;
+}
+
+#sansDemo {
+    font-family: sans-serif;
+}
+
+#mono {
+    font-family: monospace;
+}
+
+#fant {
+    font-family: fantasy;
+}
+
+#curs {
+    font-family: cursive;
+}
+
+#lGoogle {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+
+#iGoogle {
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+
+#dGoogle {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: italic;
+}

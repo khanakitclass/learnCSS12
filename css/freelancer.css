@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.left-header img {
+    width: 150px;
+}
+
+.left-header nav ul{
+    display: flex;
+}

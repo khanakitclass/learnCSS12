@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'MonaSans';
+    src: url(../font/MonaSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonaSans';
+    src: url(../font/MonaSans-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonaSans';
+    src: url(../font/MonaSans-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #E0C9CB;
+    font-family: 'MonaSans';
+}
+
+.card {
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.pro-img {
+    width: 58%;
+    height: 100%;
+    border: 2px solid red;
+    float: left;
+}
+
+.pro-data {
+    width: 42%;
+    height: 100%;
+    border: 2px solid green;
+    float: left;
+}
+
+.shoes-img {
+    width: 100%;
+    height: 70%;
+    border: 2px solid aqua;
+}
+
+.size {
+    width: 100%;
+    height: 30%;
+    border: 2px solid brown;
+}
+
+.shoes-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.size .box {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #E0C9CB;
+    float: left;
+    margin: 30px 4px 0;
+    padding: 4px 6px;
+}
